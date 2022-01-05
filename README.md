@@ -1,2 +1,2 @@
 # dark-light-toggle-mode
- A simple web page to show the toggle between light and dark mode.
+ A simple web page to change the theme of the web page.
