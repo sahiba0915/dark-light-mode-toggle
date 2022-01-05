@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+:root {
+  --primary-color: rgb(252, 249, 249);
+  --secondary-color: rgb(255, 30, 0);
+  --font-color: rgb(170, 145, 145);
+}
+
+.dark-theme {
+  --primary-color: rgb(20, 19, 19);
+  --secondary-color: rgb(255, 30, 0);
+  --font-color: rgb(20, 19, 19);
+}
+
+body {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  font-family: "Nunito", sans-serif;
+  font-size: 25px;
+  line-height: 1.5;
+  font-size: 0.875rem;
+  justify-content: center;
+}
+
+.container {
+  margin-top: 100px;
+  text-align: center;
+}
+
+img {
+  width: 50px;
+}
