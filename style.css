@@ -31,5 +31,10 @@ body {
 }
 
 img {
-  width: 50px;
+  width: 100px;
+}
+
+#welcomeMsg {
+  margin-top: 20px;
+  font-size: 3rem;
 }
