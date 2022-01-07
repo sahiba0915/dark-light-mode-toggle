@@ -1,5 +1,6 @@
 const img = document.getElementById("hero");
 const welcomeMsg= document.getElementById("welcomeMsg");
+const loader = document.getElementById("preloader");
 
 img.onclick = function(){
     document.body.classList.toggle("dark-theme");
@@ -12,3 +13,7 @@ img.onclick = function(){
         
     }
 }
+
+window.addEventListener("load", function(){
+         loader.style.display="none";
+})
